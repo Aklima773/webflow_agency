@@ -115,3 +115,52 @@ body{
     font-weight: 300;
     margin-bottom: 23px;
 }
+
+.productive-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 137px;
+    
+}
+
+.productive-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    width: 100%;
+    max-width: 1140px; 
+    background-color:rgba(78, 71, 255, 0.1) ;
+    padding: 50px 80px ;
+    border-radius: 25px ;
+}
+
+.productive-content h1{
+    font-size: 38px;
+    color: #252432;
+    margin-bottom: 40px;
+}
+.numbers{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;  
+   
+    
+    
+}
+
+.numbers p{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+
+.numbers h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
