@@ -331,3 +331,47 @@ input, textarea {
   outline: none;
   transition: border 0.2s;
 }
+
+.footer-section{
+  width: 100%;
+  background-color: #FFFFFF ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+.footer-content h1{
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+    text-align: center;
+    margin-top: 104px;
+    margin-bottom: 8px;
+}
+
+.footer-content p{
+    text-align: center;
+    color: #8987A1;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer-content{
+    margin-bottom: 20px;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+     margin-bottom: 103px;
+    
+}
+a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+   
+}
