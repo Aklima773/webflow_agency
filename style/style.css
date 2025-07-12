@@ -239,3 +239,95 @@ body{
     font-size: 16px;
     color: #B3B3B3;
 }
+
+.focused-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 92px;
+}
+
+.focused-body{
+    width: 1140px;
+    background-color:#FFFFFF ;
+    border-radius: 14px;
+    padding: 71px 150px;
+}
+.focused-body img{
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+.focused-content h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.focused-content p{
+    margin-bottom: 32px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.intouch-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intouch-body{
+    min-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 71px 0;
+}
+
+.intouch-left{
+    max-width: 528px;
+}
+.intouch-left h1{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+
+.intouch-right{
+   width: 497px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+  background: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 497px;
+}
+
+label {
+ 
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: medium;
+}
+
+input, textarea {
+ width: 100%;
+ margin-top: 10px;
+  margin-bottom: 19px;
+  padding: 20px 32px;
+  border: 1px solid rgba(214, 221, 237, 1);
+  border-radius: 10px;
+  font-size: 20px;
+  background: #fff;
+  resize: none;
+  outline: none;
+  transition: border 0.2s;
+}
